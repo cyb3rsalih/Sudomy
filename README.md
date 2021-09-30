@@ -157,16 +157,16 @@ When I have free time. Maybe In the future, sudomy will use golang too. If you w
 git clone --recursive https://github.com/screetsec/Sudomy.git
 ```
 
-### Dependencies
+### Add Dependencies
 ```
-$ python3 -m pip install -r requirements.txt
+$ cd Sudomy && python3 -m pip install -r requirements.txt
 ```
 *Sudomy* requires [jq](https://stedolan.github.io/jq/download/) and [GNU grep](https://www.gnu.org/software/grep/) to run and parse. Information on how to download and install jq can be accessed [here](https://stedolan.github.io/jq/download/)
 
 ```bash
 # Linux
 apt-get update
-apt-get install jq nmap phantomjs npm chromium parallel
+apt-get install jq nmap phantomjs npm chromium-browser parallel
 npm i -g wappalyzer wscat
 
 # Mac
